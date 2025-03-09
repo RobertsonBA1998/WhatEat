@@ -10,23 +10,6 @@ export default function Index() {
   return (
     <SafeAreaProvider>
       <SafeAreaView style={styles.home_page_view}>
-        {/* <View style={styles.title_view}>
-          <Text style={styles.title_text}>WHAT EAT?</Text>
-        </View>
-        <View style={styles.main_content_view}>
-          <View style={styles.eat_option_dropdown}>
-            <Picker
-              selectedValue={selectedEatOption}
-              onValueChange={(value, index) =>
-                setSelectedEatOption(value)
-              }>
-              <Picker.Item label="I want to EAT" value="eat" />
-              <Picker.Item label="I don't want to EAT" value="not eat" />
-            </Picker>
-          </View>
-
-          <Text style={styles.cusine_textbox}>Select cusine</Text>
-        </View> */}
         <View style={styles.container}>
           <View style={styles.logoContainer}>
             <Image source={require("../assets/images/logo.png")} style={styles.logo} />
