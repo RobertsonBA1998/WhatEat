@@ -25,14 +25,13 @@ const styles = StyleSheet.create({
 
     optionsContainer: {
         flex: 0.4,
-        justifyContent: "flex-end",
-        alignItems: "flex-end",
+        justifyContent: "center",
+        alignItems: "center",
     },
 
     optionButton: {
         width: "40%",
         height: "15%",
-        marginRight: "3%",
         marginVertical: "3%",
         justifyContent: "center",
         alignItems: "center",
