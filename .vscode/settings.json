@@ -1,6 +1,10 @@
 {
     "editor.detectIndentation": false,
     "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "files.eol": "\n",
     "editor.formatOnPaste": true,
     "[sass]": {
         "editor.tabSize": 2
